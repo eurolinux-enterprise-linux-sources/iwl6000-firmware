@@ -1,6 +1,6 @@
 Name:           iwl6000-firmware
-Version:        9.176.4.1
-Release:        2%{?dist}
+Version:        9.221.4.1
+Release:        1%{?dist}
 Summary:        Firmware for Intel(R) Wireless WiFi Link 6000 Series AGN Adapter
 
 Group:          System Environment/Kernel
@@ -57,6 +57,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Jun 21 2010 John W. Linville <linville@tuxdriver.com> - 9.221.4.1-1
+- Update for upstream version 9.221.4.1
+
+* Wed Feb 24 2010 John W. Linville <linville@tuxdriver.com> - 9.193.4.1-1
+- Update for upstream version 9.193.4.1
+
 * Tue Nov 10 2009 John W. Linville <linville@tuxdriver.com> - 9.176.4.1-2
 - Add Requires for udev
 
